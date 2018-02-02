@@ -1,11 +1,10 @@
-example_project
-==============================
+# Template for Research Projects
+================================
 
-Example project structure.
 
-Project Organization
-------------
-
+## Project Organization
+--------------------
+rs-{YEAR}-{CamelCaseName}
     │
     ├── data/               <- The original, immutable data dump. 
     │
@@ -30,9 +29,7 @@ Project Organization
     ├── README.md           <- The top-level README for developers using this project.
     │
     └── tox.ini             <- tox file with settings for running tox; see tox.testrun.org
-
-
---------
+--------------------
 
 
 Set up
