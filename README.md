@@ -6,53 +6,22 @@ Template for Research Projects
 Abstract-like paragraph that describes the project should go here. 
 Overview, general hypothesis, what you did, what you found.
 
-<<<<<<< HEAD
-## Project Organization
---------------------
-rs-{YEAR}-{CamelCaseName}
-    │
-    ├── DATA.CORE/          <- Symbolic link to the immutable, raw data
-    │ 
-    ├── DATA.RSRCH/         <- Symbolic link to any processed data downstream of the raw data.
-    │ 
-    ├── figures/            <- Figures saved by scripts or notebooks.
-    │
-    ├── notebooks/          <- Jupyter notebooks for analysis only (e.g. statistics, production of graphs).
-    │                          Code for transforming/processing/modelling data should **not** be contained here.
-    │
-    ├── codebase/           <- Collection of Python modules with source code for project.
-    │
-    ├── tests/              <- Unit tests for the codebase.
-    │    
-    ├── environment.yml     <- conda virtual environment definition file.
-    │
-    ├── LICENSE
-    │
-    ├── Makefile            <- Makefile with commands like `make environment`
-    │
-    ├── README.md           <- The top-level README for developers using this project.
-    │
-    └── tox.ini             <- tox file with settings for running tox; see tox.testrun.org
-=======
 Project Organization
->>>>>>> 6c19a050754d06a4f73d70ae189f7ea1703805d2
 --------------------
     rs-YEAR-CamelCaseName ──┤
-                            │
-                            ├── data/               <- The original, immutable data dump. 
-                            │
+                            ├── DATA.CORE/          <- Symbolic link to the immutable, raw data
+                            │ 
+                            ├── DATA.RSRCH/         <- Symbolic link to any processed data downstream of the raw data.
+                            │ 
                             ├── figures/            <- Figures saved by scripts or notebooks.
                             │
-                            ├── notebooks/          <- Jupyter notebooks. Naming convention is a short `-` delimited 
-                            │                         description, a number (for ordering), and the creator's initials,
-                            │                        e.g. `initial-data-exploration-01-hg`.
+                            ├── notebooks/          <- Jupyter notebooks for analysis only (e.g. statistics, production of graphs).
+                            │                          Code for transforming/processing/modelling data should **not** be contained here.
                             │
-                            ├── output/             <- Manipulated data, logs, etc.
+                            ├── codebase/           <- Collection of Python modules with source code for project.
                             │
-                            ├── tests/              <- Unit tests.
-                            │
-                            ├── exampleproject/     <- Python module with source code of this project.
-                            │
+                            ├── tests/              <- Unit tests for the codebase.
+                            │    
                             ├── environment.yml     <- conda virtual environment definition file.
                             │
                             ├── LICENSE
