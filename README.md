@@ -1,25 +1,28 @@
 # Template for Research Projects
 ================================
 
+## Project Description
+----------------------
+Abstract-like paragraph that describes the project should go here. 
+Overview, general hypothesis, what you did, what you found.
 
 ## Project Organization
 --------------------
 rs-{YEAR}-{CamelCaseName}
     │
-    ├── data/               <- The original, immutable data dump. 
-    │
+    ├── DATA.CORE/          <- Symbolic link to the immutable, raw data
+    │ 
+    ├── DATA.RSRCH/         <- Symbolic link to any processed data downstream of the raw data.
+    │ 
     ├── figures/            <- Figures saved by scripts or notebooks.
     │
-    ├── notebooks/          <- Jupyter notebooks. Naming convention is a short `-` delimited 
-    │                         description, a number (for ordering), and the creator's initials,
-    │                        e.g. `initial-data-exploration-01-hg`.
+    ├── notebooks/          <- Jupyter notebooks for analysis only (e.g. statistics, production of graphs).
+    │                          Code for transforming/processing/modelling data should **not** be contained here.
     │
-    ├── output/             <- Manipulated data, logs, etc.
+    ├── codebase/           <- Collection of Python modules with source code for project.
     │
-    ├── tests/              <- Unit tests.
-    │
-    ├── exampleproject/     <- Python module with source code of this project.
-    │
+    ├── tests/              <- Unit tests for the codebase.
+    │    
     ├── environment.yml     <- conda virtual environment definition file.
     │
     ├── LICENSE
@@ -31,8 +34,15 @@ rs-{YEAR}-{CamelCaseName}
     └── tox.ini             <- tox file with settings for running tox; see tox.testrun.org
 --------------------
 
+## Jupyter Notebooks 
+------------
+TODO
 
-Set up
+## Codebase
+------------
+TODO
+
+## Set up
 ------------
 
 Install the virtual environment with conda and activate it:
