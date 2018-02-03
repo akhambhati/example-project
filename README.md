@@ -1,5 +1,4 @@
 # Template for Research Projects
-================================
 
 ## Project Description
 ----------------------
